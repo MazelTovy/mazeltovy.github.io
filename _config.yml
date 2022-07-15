@@ -1,25 +1,26 @@
 # Site settings
-title: Kali Blog
-SEOTitle: Kali 的小站
+title: MazelTovy Blog
+SEOTitle: MazelTovy 的小站
 header-img: img/post-bg-desk.jpg
-email: kalierincn@outlook.com
-description: "中立最好，学校最坏."
-keyword: "Kali Blog, Kali的小站"
-url: "https://kalicn.github.io"          # your host, for absolute URL
+email: danielhampton1311@gmail.com
+description: "cogito, ergo sum."
+keyword: "MazelTovy Blog, MazelTovy 的小站"
+url: "https://mazeltovy.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/kalicn/kalicn.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "与其看教科书，还不如读Linux源码。"
+sidebar-about-description: "树剖村庄，七桥古塘。写程序、豪兴徜徉。OJ几许，收尽春光。有WA红，RE紫，CE黄。平面向量，凸包周长。扬队列、最短路傍。偶然刷题，入洛谷冈。正dp啼，贪心舞，搜索忙。"
 sidebar-avatar: /img/yeswecode.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: true
-github_username:    kalicn
-
+github_username:    MazelTovy
+zhihu_username:     hermione-84-54
+weibo_username:     MazelTovy
 
 
 
