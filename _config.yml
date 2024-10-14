@@ -2,12 +2,12 @@
 title: MazelTovy Blog
 SEOTitle: MazelTovy 的小站
 header-img: img/post-bg-desk.jpg
-email: danielhampton1311@gmail.com
+email: sx2490@nyu.edu
 description: "cogito, ergo sum."
 keyword: "MazelTovy Blog, MazelTovy 的小站"
 url: "https://mazeltovy.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/kalicn/kalicn.github.io.git" # you code repository
+github_repo: "https://github.com/MazelTovy/mazeltovy.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
