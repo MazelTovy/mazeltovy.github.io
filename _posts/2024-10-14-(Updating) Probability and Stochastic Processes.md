@@ -74,8 +74,10 @@ Assume we have a constant $c$, and $n\rightarrow \infty$, then $\displaystyle P=
 
 If $X$ obeys binomial distribution, then
 $$
-P(X=k)&={n\choose k}p^k q^{n-k}\\
-&=e^{-\lambda}\frac{\lambda^k}{k!}
+\begin{eqnarray}
+P(X=k)&=&{n\choose k}p^k q^{n-k}\\
+&=&e^{-\lambda}\frac{\lambda^k}{k!}
+\end{eqnarray}
 $$
 When $X=0$,
 $$
@@ -92,9 +94,11 @@ Team $A$ and team $B$ are in a game. The team wins 4 in 7 games wins the game.
 
 Which means $X_k=4^{\text{th}} \text{\ success\ at\ } n^{\text{th}} \text{\ game\ for\ } A$, $A$ can win at $4^{\text{th}}$, $5^{\text{th}}$, $6^{\text{th}}$, $7^{\text{th}}$ game.
 $$
-P(A \text{\ wins})&= X_4\cup X_5\cup X_6\cup X_7\\
-&=\sum^7_{n=4}P(X_n)\\
-&=\sum^7_{n=4}{n-1\choose 3}p^{n-1}q^3\cdot q
+\begin{eqnarray}
+P(A \text{\ wins})&=& X_4\cup X_5\cup X_6\cup X_7\\
+&=&\sum^7_{n=4}P(X_n)\\
+&=&\sum^7_{n=4}{n-1\choose 3}p^{n-1}q^3\cdot q
+\end{eqnarray}
 $$
 
 ### Random variables
@@ -198,15 +202,19 @@ P(A\mid p=P)=p^k q^{n-k}
 $$
 
 $$
-P(A)&=\int^1_0 P(A\mid p)f_P(p)\text{d}P\\
-&=\int^1_0 p^k(1-p)^{n-k}\text{d}P\\
-&=\frac{(n+1)!}{k!(n-k)!}
+\begin{eqnarray}
+P(A)&=&\int^1_0 P(A\mid p)f_P(p)\text{d}P\\
+&=&\int^1_0 p^k(1-p)^{n-k}\text{d}P\\
+&=&\frac{(n+1)!}{k!(n-k)!}
+\end{eqnarray}
 $$
 
 $$
-f(P\mid A)&=\frac{P(A\mid p=P)f_P(P)}{P(A)}\\
-&=\frac{k!(n-k)!p^kq^{n-k}}{(n+1)!}\\
+\begin{eqnarray}
+f(P\mid A)&=&\frac{P(A\mid p=P)f_P(P)}{P(A)}\\
+&=&\frac{k!(n-k)!p^kq^{n-k}}{(n+1)!}\\
 &\sim \Beta
+\end{eqnarray}
 $$
 
 For conditional event $\Beta$,
@@ -239,9 +247,11 @@ g_n=E[(x-\mu)^n]
 $$
 
 $$
-\mu&=E(X)\\
-&=\int_{-\infty}^{+\infty}xf_X(x)\text{d}x\\
-&=\sum_i x_i P(X=x_c)
+\begin{eqnarray}
+\mu&=&E(X)\\
+&=&\int_{-\infty}^{+\infty}xf_X(x)\text{d}x\\
+&=&\sum_i x_i P(X=x_c)
+\end{eqnarray}
 $$
 
 $$
@@ -252,18 +262,22 @@ $\sigma$ is dispersion
 
 measure of spread of observation around mean
 $$
-\text{Var}(X)&=\sigma^2=E[(X-\mu)^2]\\
-&=E[X^2-2\mu X+\mu^2]\\
-&=\int(x^2-2\mu x+\mu^2)f_\lambda(x)\text{d}_x\\
-&=\int x^2f_X(x)\text{d}x-2\mu\int xf_X(x)\text{d}x+\mu^2
+\begin{eqnarray}
+\text{Var}(X)&=&\sigma^2=E[(X-\mu)^2]\\
+&=&E[X^2-2\mu X+\mu^2]\\
+&=&\int(x^2-2\mu x+\mu^2)f_\lambda(x)\text{d}_x\\
+&=&\int x^2f_X(x)\text{d}x-2\mu\int xf_X(x)\text{d}x+\mu^2
+\end{eqnarray}
 $$
 
 Characteristic Function
 $$
-\Phi_X(\omega)=E[e^{j\omega X}]&=\int^{+\infty}_{-\infty}e^{j\omega X}f_X(x)\text{d}x\\
-&=\int(1+j\omega x+\frac{j^2\omega^2 x^2}{2!}+\cdots+\frac{j^n\omega^n x^n}{n!})f_X(x)\text{d}x\\
-&=1+j\omega \int xf_X(x)\text{d}x+\frac{j^2\omega^2}{2!} \int x^2f_X(x)\text{d}x+\cdots+\frac{j^n\omega^n}{n!} \int x^nf_X(x)\text{d}x\\
-&=1+E(X)+E(X^2)+\cdots+E(X^n)
+\begin{eqnarray}
+\Phi_X(\omega)=E[e^{j\omega X}]&=&\int^{+\infty}_{-\infty}e^{j\omega X}f_X(x)\text{d}x\\
+&=&\int(1+j\omega x+\frac{j^2\omega^2 x^2}{2!}+\cdots+\frac{j^n\omega^n x^n}{n!})f_X(x)\text{d}x\\
+&=&1+j\omega \int xf_X(x)\text{d}x+\frac{j^2\omega^2}{2!} \int x^2f_X(x)\text{d}x+\cdots+\frac{j^n\omega^n}{n!} \int x^nf_X(x)\text{d}x\\
+&=&1+E(X)+E(X^2)+\cdots+E(X^n)
+\end{eqnarray}
 $$
 Which means
 $$
@@ -272,10 +286,12 @@ $$
 $$
 
 $$
-\Phi_X(\omega)&=\sum_{k=0}^\infty e^{j\omega k}P(X=k)\\
-&=\sum_{k=0}^\infty e^{j\omega k}e^{-\lambda}\frac{\lambda^k}{k!}\\
-&=e^{-\lambda}\sum_{k=0}^\infty\frac{(\lambda e^{j\omega})^k}{k!}\\
-&= e^{-\lambda}e^{\lambda e^{j\omega}}
+\begin{eqnarray}
+\Phi_X(\omega)&=&\sum_{k=0}^\infty e^{j\omega k}P(X=k)\\
+&=&\sum_{k=0}^\infty e^{j\omega k}e^{-\lambda}\frac{\lambda^k}{k!}\\
+&=&e^{-\lambda}\sum_{k=0}^\infty\frac{(\lambda e^{j\omega})^k}{k!}\\
+&=& e^{-\lambda}e^{\lambda e^{j\omega}}
+\end{eqnarray}
 $$
 
 $$
@@ -284,10 +300,12 @@ $$
 
 Another example $P[\mid X-\mu\mid>\varepsilon]$
 $$
-\sigma_X^2&=E[(X-\mu)^2]\\
-&=\int_{-\infty}^{+\infty}(x-\mu)^2f_X(x)\text{d}x\\
-&=\int\limits_{\mid X-\mu\mid>\varepsilon}(x-\mu)^2 f_X(x)\text{d}x+\int\limits_{\mid X-\mu\mid<\varepsilon}(x-\mu)^2 f_X(x)\text{d}x\\
+\begin{eqnarray}
+\sigma_X^2&=&E[(X-\mu)^2]\\
+&=&\int_{-\infty}^{+\infty}(x-\mu)^2f_X(x)\text{d}x\\
+&=&\int\limits_{\mid X-\mu\mid>\varepsilon}(x-\mu)^2 f_X(x)\text{d}x+\int\limits_{\mid X-\mu\mid<\varepsilon}(x-\mu)^2 f_X(x)\text{d}x\\
 &\geq \int\limits_{\mid X-\mu\mid>\varepsilon}(x-\mu)^2 f_X(x)\text{d}x
+\end{eqnarray}
 $$
 We can make deduction of the Chebyshev's inequation
 $$
@@ -361,15 +379,17 @@ e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots+\frac{x^n}{n!}
 $$
 Then
 $$
-\Phi_X(\omega)&=E[e^{j\omega y}]=E[e^{j\omega\frac{(x-np)}{\sqrt{npq}}}]\\
-&=e^{-\frac{jnp\omega}{\sqrt{npq}}}E[e^{e^{\frac{j\omega x}{\sqrt{npq}}}}]\\
-&=e^{-\frac{jnp\omega}{\sqrt{npq}}}(pe^{j\frac{\omega}{\sqrt{npq}}}+q)^n\\
-&=(pe^{j\frac{q\omega}{\sqrt{npq}}}+qe^{-\frac{p\omega}{\sqrt{npq}}})^n\\
-&=(p[1+\frac{jq\omega}{\sqrt{npq}}+\frac{j^2q^2\omega^2}{2npq}+o(\frac{\sigma}{n^{3/2}})]+q[1-\frac{jp\omega}{\sqrt{npq}}+\frac{j^2p^2\omega^2}{2npq}+o\cdots])^n\\
-&=(\frac{p+q}{1}+o-\frac{pq^2\omega^2}{2npq}-\frac{p^2q\omega^2}{2npq})^n\\
-&=\lim_{n\rightarrow\infty}(1-\frac{\omega^2}{2n})^n\\
-&=e^{-\omega^2/2}\\
-&=\mathcal{N}(0,1)
+\begin{eqnarray}
+\Phi_X(\omega)&=&E[e^{j\omega y}]=E[e^{j\omega\frac{(x-np)}{\sqrt{npq}}}]\\
+&=&e^{-\frac{jnp\omega}{\sqrt{npq}}}E[e^{e^{\frac{j\omega x}{\sqrt{npq}}}}]\\
+&=&e^{-\frac{jnp\omega}{\sqrt{npq}}}(pe^{j\frac{\omega}{\sqrt{npq}}}+q)^n\\
+&=&(pe^{j\frac{q\omega}{\sqrt{npq}}}+qe^{-\frac{p\omega}{\sqrt{npq}}})^n\\
+&=&(p[1+\frac{jq\omega}{\sqrt{npq}}+\frac{j^2q^2\omega^2}{2npq}+o(\frac{\sigma}{n^{3/2}})]+q[1-\frac{jp\omega}{\sqrt{npq}}+\frac{j^2p^2\omega^2}{2npq}+o\cdots])^n\\
+&=&(\frac{p+q}{1}+o-\frac{pq^2\omega^2}{2npq}-\frac{p^2q\omega^2}{2npq})^n\\
+&=&\lim_{n\rightarrow\infty}(1-\frac{\omega^2}{2n})^n\\
+&=&e^{-\omega^2/2}\\
+&=&\mathcal{N}(0,1)
+\end{eqnarray}
 $$
 The notation $it$ is the same as $j\omega$ in mathematical proof.
 
@@ -438,8 +458,10 @@ F_{X,Y}(x,y)=P(X\leq x,Y\leq y)\geq0
 $$
 For a rectangular region
 $$
-P[x_1<X\leq x_2,y_1<Y\leq y_2]&=F_{XY}(x_2,y_2)-F_{XY}(x_1,y_2)-F_{XY}(x_2,y_1)+F_{XY}(x_1,y_1)\\
-&=\int\limits_{x_1}^{x_2}\int\limits_{y_1}^{y_2}f_{XY}(x,y)\text{d}x\text{d}y
+\begin{eqnarray}
+P[x_1<X\leq x_2,y_1<Y\leq y_2]&=&F_{XY}(x_2,y_2)-F_{XY}(x_1,y_2)-F_{XY}(x_2,y_1)+F_{XY}(x_1,y_1)\\
+&=&\int\limits_{x_1}^{x_2}\int\limits_{y_1}^{y_2}f_{XY}(x,y)\text{d}x\text{d}y
+\end{eqnarray}
 $$
 
 $$
@@ -448,8 +470,10 @@ $$
 
 If the region $D$ is of a random shape
 $$
-P[(X,Y)\in D]&=\mathop{\sum\sum}\limits_{D_{ij}}f_{XY}(x_i,y_i)\Delta x\Delta y\\
-&=\mathop{\int\int}\limits_{(X,Y)\in D}f_{XY}(x,y)\text{d}x
+\begin{eqnarray}
+P[(X,Y)\in D]&=&\mathop{\sum\sum}\limits_{D_{ij}}f_{XY}(x_i,y_i)\Delta x\Delta y\\
+&=&\mathop{\int\int}\limits_{(X,Y)\in D}f_{XY}(x,y)\text{d}x
+\end{eqnarray}
 $$
 
 Therefore
@@ -479,8 +503,10 @@ a(x)\circledast b(x)=z(x)=\int\limits_{-\infty}^{+\infty}a(z-x)b(x)\text{d}x
 $$
 For example, $f_{XY}(x,y)=e^{-x},x>y>0,Z=X+Y$
 $$
-F_Z(z)&=P(X+Y\leq Z)\\
-&=\int\limits_{y=0}^{z/2}\int\limits_{x=0}^{z-y}f_{XY}(x,y)\text{d}x\text{d}y
+\begin{eqnarray}
+F_Z(z)&=&P(X+Y\leq Z)\\
+&=&\int\limits_{y=0}^{z/2}\int\limits_{x=0}^{z-y}f_{XY}(x,y)\text{d}x\text{d}y
+\end{eqnarray}
 $$
 Sum of any 2 Gaussian random variables (i.i.d. or not) is still Gaussian
 
@@ -490,17 +516,21 @@ Another example, $X+yY=Ze^{y\theta},x\sim\mathcal{N}(0,\sigma^2),X,Y,i.i.d.,Z=\s
 
 $Z=\frac{X}{Y}$, assume $\frac{X}{Y}\leq z$ as $A$, $Y>0$ as $B$,
 $$
-F_Z(z)=P(Z\leq z)&=P[(\frac{X}{Y}\leq z)\cap(Y>0)\cup(Y<0)]\\
-&=P[(A\cap(B\cup \overline{B}))]\\
-&=P(AB)+P(A\overline{B})\\
-&=P(\frac{X}{Y}\leq z, Y\geq 0)+P(\frac{X}{Y}\leq z, Y< 0)\\
-&=P(X\leq Yz, Y\geq 0)+P(X\leq Yz, Y< 0)\\
-&=\int\limits_{0}^{+\infty}\int\limits_{-\infty}^{yz}f_{XY}(x,y)\text{d}x\text{d}y+\int\limits_{0}^{+\infty}\int\limits_{y}^{+\infty}f_{XY}(x,y)\text{d}x\text{d}y
+\begin{eqnarray}
+F_Z(z)=P(Z\leq z)&=&P[(\frac{X}{Y}\leq z)\cap(Y>0)\cup(Y<0)]\\
+&=&P[(A\cap(B\cup \overline{B}))]\\
+&=&P(AB)+P(A\overline{B})\\
+&=&P(\frac{X}{Y}\leq z, Y\geq 0)+P(\frac{X}{Y}\leq z, Y< 0)\\
+&=&P(X\leq Yz, Y\geq 0)+P(X\leq Yz, Y< 0)\\
+&=&\int\limits_{0}^{+\infty}\int\limits_{-\infty}^{yz}f_{XY}(x,y)\text{d}x\text{d}y+\int\limits_{0}^{+\infty}\int\limits_{y}^{+\infty}f_{XY}(x,y)\text{d}x\text{d}y
+\end{eqnarray}
 $$
 
 $$
-f_Z(z)&=\int\limits_0^\infty yf_{XY}(yz,y)\text{d}y+\int\limits_0^\infty (-y)f_{XY}(yz,y)\text{d}y\\
-&=\int\limits_{-\infty}^{+\infty}|y|f_{XY}(yz,y)\text{d}y
+\begin{eqnarray}
+f_Z(z)&=&\int\limits_0^\infty yf_{XY}(yz,y)\text{d}y+\int\limits_0^\infty (-y)f_{XY}(yz,y)\text{d}y\\
+&=&\int\limits_{-\infty}^{+\infty}|y|f_{XY}(yz,y)\text{d}y
+\end{eqnarray}
 $$
 
 If $X,Y\sim\mathcal{N}(\mu_X,\mu_Y,\sigma_X^2,\sigma_Y^2,\rho)$
