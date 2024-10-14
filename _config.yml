@@ -1,7 +1,7 @@
 # Site settings
 title: MazelTovy Blog
 SEOTitle: MazelTovy 的小站
-header-img: img/post-bg-desk.jpg
+header-img: img/nyu_bg.jpg
 email: sx2490@nyu.edu
 description: "cogito, ergo sum."
 keyword: "MazelTovy Blog, MazelTovy 的小站"
@@ -12,12 +12,12 @@ github_repo: "https://github.com/MazelTovy/mazeltovy.github.io" # you code repos
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "树剖村庄，七桥古塘。写程序、豪兴徜徉。OJ几许，收尽春光。有WA红，RE紫，CE黄。平面向量，凸包周长。扬队列、最短路傍。偶然刷题，入洛谷冈。正dp啼，贪心舞，搜索忙。"
-sidebar-avatar: /img/yeswecode.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
-RSS: true
+RSS: false
 github_username:    MazelTovy
 zhihu_username:     hermione-84-54
 weibo_username:     MazelTovy
