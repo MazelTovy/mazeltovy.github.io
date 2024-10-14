@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      The PhD Journey 记录
+title:      Successful PhD Journey 记录
 date:       2024-10-14
 author:     MazelTovy
 header-img: img/mit.jpg
@@ -25,15 +25,14 @@ Awesome-Mamba-papers 仓库
 3. 与高水平专家合作
 4. 不断总结
 
-![1728936126074](image/2024-10-14-ThePhDJourney记录/1728936126074.png)
+![图 0](https://cdn.jsdelivr.net/gh/MazelTovy/Cloudimg@main/img/15ab350b88b2dc4a4a43da9ec66a0f0e5cd7b3e5f8dc90c2819095c13b5cc82d.png)
 
 ### Top PhDs - Research 心法
 
 1. 实践最佳算法，复现，避免自己走弯路。
 2. 类比思想，合理迁移。
-   e.g., 句子级别 attention 解决 noise 问题
-3. 分解问题，组合模块解决问题。
-   e.g., BERT + TransE
+   e.g., 句子级别 attention 解决 noise 问题分解问题，组合模块解决问题。
+3. e.g., BERT + TransE
 4. 深挖小方向，不要放兴趣在太广的面。
 5. 多读顶会 oral 的文章学习写作。
 6. 多用 LaTeX 练习写作以方便正式写作。
