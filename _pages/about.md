@@ -15,7 +15,7 @@ redirect_from:
 
 Hi, I'm Sizhe Xu (徐思喆), you can just call me Alex! 👋
 
-I am an **incoming Ph.D. student** at **NYU Courant** (Shanghai Track) advised by [Prof. Zhaonan Wang][Zhaonan Wang-link], and a current **Master of Science student** at **New York University** working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research spans **LLMs, Urban Computing, and Computer Vision**, with a focus on agent-based mobility modeling and visual representation learning.
+I am an **incoming Ph.D. student** in **Computer Science** at **NYU Courant** Shanghai Track advised by [Prof. Zhaonan Wang][Zhaonan Wang-link], and a current **Master of Science student** at **New York University** working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research spans **LLMs, Urban Computing, and Computer Vision**, with a focus on agent-based mobility modeling and visual representation learning.
 
 > ### Recent Highlights 🎉:
 > * **Mar 2026:** I will be joining **NYU Courant** (Shanghai Track) as a **Ph.D. student** in Fall 2026, advised by [Prof. Zhaonan Wang][Zhaonan Wang-link].
@@ -30,7 +30,7 @@ I am an **incoming Ph.D. student** at **NYU Courant** (Shanghai Track) advised b
 
 ### Academic Journey 🎓
 
-- Ph.D. in Computer Science (incoming, Fall 2026), NYU Courant Institute (Shanghai Track)
+- Ph.D. in Computer Science (incoming, Fall 2026), NYU Courant Institute Shanghai Track
   - Advisor: [Prof. Zhaonan Wang][Zhaonan Wang-link]
 - Master of Science in Urban Data Science, New York University
   - Capstone mentored by [Prof. Takahiro Yabe][Takahiro Yabe-link].
