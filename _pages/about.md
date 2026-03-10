@@ -13,7 +13,7 @@ redirect_from:
 }
 </style>
 
-Hi, I'm Sizhe (Alex) Xu 👋
+Hi, I'm Sizhe Xu (徐思喆), you can just call me Alex! 👋
 
 I am an **incoming Ph.D. student** at **NYU Courant** (Shanghai Track) advised by [Prof. Zhaonan Wang][Zhaonan Wang-link], and a current **Master of Science student** at **New York University** working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research spans **LLMs, Urban Computing, and Computer Vision**, with a focus on agent-based mobility modeling and visual representation learning.
 
