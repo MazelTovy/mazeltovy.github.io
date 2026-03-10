@@ -15,19 +15,23 @@ redirect_from:
 
 Hi, I'm Sizhe (Alex) Xu 👋
 
-I am a **Master of Science student** at **New York University**, working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research interests lie at the intersection of **LLMs, Reinforcement Learning, Time-Series Prediction, and Computer Vision**, with a particular focus on their application in building smarter and more efficient cities now.
-
-I am actively seeking **Ph.D.** opportunities for Fall 2026. I am eager to join a research group where I can contribute to developing next-generation intelligent systems and tackle fundamental challenges in areas like LLMs, Embodied AI and Urban Computing.
+I am an **incoming Ph.D. student** at **NYU Courant** (Shanghai Track) advised by [Prof. Zhaonan Wang][Zhaonan Wang-link], and a current **Master of Science student** at **New York University** working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research spans **LLMs, Urban Computing, and Computer Vision**, with a focus on agent-based mobility modeling and visual representation learning.
 
 > ### Recent Highlights 🎉:
-> * **Dec 2025:** I will be attending **NeurIPS 2025** in **San Diego**. 
-> 
+> * **Mar 2026:** I will be joining **NYU Courant** (Shanghai Track) as a **Ph.D. student** in Fall 2026, advised by [Prof. Zhaonan Wang][Zhaonan Wang-link].
+>
+> * **Feb 2026:** I am serving as a **Course Assistant** for CUSP-GX 9113 – Network Science for Cities, instructed by [Prof. Takahiro Yabe][Takahiro Yabe-link].
+>
+> * **Dec 2025:** I attended **NeurIPS 2025** in **San Diego**.
+>
 > * **Sept 2025:** Our paper, "[Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss][paper-link]," was accepted as a **Spotlight** poster at **NeurIPS 2025**.
 > 
 > Please feel free to reach out if you'd like to connect!
 
 ### Academic Journey 🎓
 
+- Ph.D. in Computer Science (incoming, Fall 2026), NYU Courant Institute (Shanghai Track)
+  - Advisor: [Prof. Zhaonan Wang][Zhaonan Wang-link]
 - Master of Science in Urban Data Science, New York University
   - Capstone mentored by [Prof. Takahiro Yabe][Takahiro Yabe-link].
 - Bachelor of Engineering in Electronic Engineering, Dalian Jiaotong University
@@ -42,6 +46,7 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
 - **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
 [Takahiro Yabe-link]: https://engineering.nyu.edu/faculty/takahiro-yabe
+[Zhaonan Wang-link]: https://shanghai.nyu.edu/academics/faculty/directory/zhaonan-wang
 [paper-link]: https://arxiv.org/abs/2510.19980
 [RUN lab-link]: https://www.takayabe.net/
 [undergrad capstone-link]: https://github.com/MazelTovy/image_segmentation_beamer

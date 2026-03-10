@@ -11,6 +11,8 @@ redirect_from:
 
 Education
 ======
+* **Ph.D. in Computer Science** (incoming, Fall 2026) <br> **NYU Courant Institute** (Shanghai Track), Shanghai
+  * Advisor: [Prof. Zhaonan Wang](https://shanghai.nyu.edu/academics/faculty/directory/zhaonan-wang)
 * **M.S. in Urban Data Science** (GPA: 3.9/4.0) <br> **New York University**, New York, NY · Sept 2024 - Present
   * Courses: Urban Computing & AI, Data Science, Deep Learning, Computer Vision, Large Language and Vision Models, Transportation and Logistics, Innovative City Governance, Probability and Stochastic Processes
   * Mentor: [Prof. Takahiro Yabe](https://engineering.nyu.edu/faculty/takahiro-yabe)
@@ -20,8 +22,11 @@ Education
 
 Experience
 ======
+* **Research Assistant** <br> **NYU Courant Institute (Shanghai Track)** · Mar 2026 - Present
+  * Supervisors: [Prof. Zhaonan Wang](https://shanghai.nyu.edu/academics/faculty/directory/zhaonan-wang) & [Prof. Takahiro Yabe](https://engineering.nyu.edu/faculty/takahiro-yabe)
+  * Developing an LLM-driven agent persona framework to infer human mobility behaviors, benchmarking the upper bound of LLMs' urban spatial understanding capabilities.
+
 * **Student Researcher** <br> **New York University**, New York · June 2025 - Present
-  * LLM-driven Agent-Based Modeling: Developed a simulation framework using LLMs to generate synthetic user personas from environmental data and differentially-private individual trajectories. This approach models micro-level economic decision-making and provides a novel benchmark against traditional agent-based models.
   * Time-Series Representation Learning: Investigated the role of adaptive masking in eliminating data redundancy for time-series forecasting. This research led to a dynamic masking loss framework with representation consistency constraints that challenged conventional long-sequence information hypotheses and significantly improved prediction accuracy.
   * Advanced Positional Encoding: Researched and developed novel positional encoding methods to enhance the representation of high-dimensional data within neural network architectures, leading to a proposed Generalized ROPE for n-dimensional position embedding.
 
@@ -67,6 +72,11 @@ Teaching
 <!-- Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
+
+Teaching
+======
+* **Course Assistant** <br> **New York University** · Feb 2026 - May 2026
+  * CUSP-GX 9113 C – Network Science for Cities, instructed by [Prof. Takahiro Yabe](https://engineering.nyu.edu/faculty/takahiro-yabe)
 
 Resume
 ======
