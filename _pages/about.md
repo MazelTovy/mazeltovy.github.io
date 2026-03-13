@@ -46,7 +46,7 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
 - **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-    <div style="width: 300px; transform: scale(0.5); transform-origin: center;">
+    <div style="width: 300px; transform: scale(0.9); transform-origin: center;">
         <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TMfP3VVh2CP9onK4TXzsrDZzYk7b6_kMK6y3jHZEnvk&cl=ffffff&w=a"></script>
     </div>
 </div>
