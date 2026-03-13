@@ -45,6 +45,10 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
 
 - **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
+<div style="text-align: center; margin-top: 2em;">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TMfP3VVh2CP9onK4TXzsrDZzYk7b6_kMK6y3jHZEnvk&cl=ffffff&w=a"></script>
+</div>
+
 [Takahiro Yabe-link]: https://engineering.nyu.edu/faculty/takahiro-yabe
 [Zhaonan Wang-link]: https://shanghai.nyu.edu/academics/faculty/directory/zhaonan-wang
 [paper-link]: https://arxiv.org/abs/2510.19980
