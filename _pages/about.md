@@ -45,10 +45,16 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
 
 - **Email**: sizhe [dot] xu [at] nyu [dot] edu
 
-<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-    <div style="width: 300px; transform: scale(0.9); transform-origin: center;">
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TMfP3VVh2CP9onK4TXzsrDZzYk7b6_kMK6y3jHZEnvk&cl=ffffff&w=a"></script>
-    </div>
+<div style="display:flex; justify-content:center; align-items:center; margin: 20px 0;">
+  <div style="width:300px; transform:scale(0.9); transform-origin:center;">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TMfP3VVh2CP9onK4TXzsrDZzYk7b6_kMK6y3jHZEnvk&cl=ffffff&w=a"></script>
+  </div>
+</div>
+
+### Schedule
+
+<div style="border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.10); max-width:720px; margin:0 auto;">
+  <iframe src="https://calendar.google.com/calendar/embed?src=sx2490%40nyu.edu&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA" style="border:0; display:block;" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
 </div>
 
 [Takahiro Yabe-link]: https://engineering.nyu.edu/faculty/takahiro-yabe
