@@ -51,9 +51,24 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
   <iframe src="https://calendar.google.com/calendar/embed?src=sx2490%40nyu.edu&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&mode=MONTH" style="border:0; display:block;" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
 </div>
 
+<style>
+@keyframes bestie-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255, 180, 180, 0.7); }
+  70%  { box-shadow: 0 0 0 7px rgba(255, 180, 180, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 180, 180, 0); }
+}
+</style>
+
 <div style="display:flex; justify-content:center; align-items:center; margin: 20px 0;">
-  <div style="width:300px; transform:scale(0.9); transform-origin:center;">
+  <div style="width:300px; transform:scale(0.9); transform-origin:center; position:relative;">
     <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TMfP3VVh2CP9onK4TXzsrDZzYk7b6_kMK6y3jHZEnvk&cl=ffffff&w=a"></script>
+    <a href="https://environment.leeds.ac.uk/geography/pgr/21520/feiyang-ren"
+       target="_blank"
+       title="my bestie"
+       style="position:absolute; top:27%; left:47%; width:7px; height:7px;
+              background:#ff9a9a; border-radius:50%; display:block;
+              animation:bestie-pulse 2s infinite; cursor:pointer;">
+    </a>
   </div>
 </div>
 
