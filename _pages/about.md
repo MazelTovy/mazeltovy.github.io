@@ -65,7 +65,7 @@ My approach to technology is shaped by pursuits beyond the lab. You might find m
     <a href="https://environment.leeds.ac.uk/geography/pgr/21520/feiyang-ren"
        target="_blank"
        title="my bestie"
-       style="position:absolute; top:27%; left:47%; width:7px; height:7px;
+       style="position:absolute; top:35%; left:47%; width:7px; height:7px;
               background:#ff9a9a; border-radius:50%; display:block;
               animation:bestie-pulse 2s infinite; cursor:pointer;">
     </a>
