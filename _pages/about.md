@@ -18,11 +18,11 @@ Hi, I'm Sizhe Xu (徐思喆), you can just call me Alex! 👋
 I am an **incoming Ph.D. student** in **Computer Science** at **NYU Courant** Shanghai Track advised by [Prof. Zhaonan Wang][Zhaonan Wang-link], and a current **Master of Science student** at **New York University** working with [Prof. Takahiro Yabe][Takahiro Yabe-link] at the [RUN Lab][RUN lab-link]. My research spans **LLMs, Urban Computing, and Computer Vision**, with a focus on agent-based mobility modeling and visual representation learning.
 
 > ### Recent Highlights 🎉:
+> * **April 2026:** Our paper, "nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding," was accepted at **ICML 2026**. See you July 6-11 in Seoul!
+> 
 > * **Mar 2026:** I will be joining **NYU Courant** (Shanghai Track) as a **Ph.D. student** in Fall 2026, advised by [Prof. Zhaonan Wang][Zhaonan Wang-link].
 >
 > * **Feb 2026:** I am serving as a **Course Assistant** for CUSP-GX 9113 – Network Science for Cities, instructed by [Prof. Takahiro Yabe][Takahiro Yabe-link].
->
-> * **Dec 2025:** I attended **NeurIPS 2025** in **San Diego**.
 >
 > * **Sept 2025:** Our paper, "[Abstain Mask Retain Core: Time Series Prediction by Adaptive Masking Loss][paper-link]," was accepted as a **Spotlight** poster at **NeurIPS 2025**.
 > 
